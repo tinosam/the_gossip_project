@@ -1,0 +1,13 @@
+<div class="form">
+  <%=form_tag '/modification_gossip', method: "POST" do %>
+  <div class="form-group" >
+    <label for="exampleInputAuthor">Author</label>
+    <input type="text" class="form-control" id="exampleInputAuthor"  placeholder="Author" name="author_id" value="<%= @gossip.id %>">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputContent">Taper ici pour modifier le Gossip</label>
+    <input  type="text" class="form-control" id="exampleInputContent" name="gossip" value="<%= @gossip.content %>"></input>
+  </div>
+  <button type="submit" class="btn btn-primary">Modifier</button>
+<% end %>
+</div>

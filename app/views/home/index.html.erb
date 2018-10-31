@@ -1,0 +1,24 @@
+<h1>Voici la liste des Gossip</h1>
+<a href="/connexion/connexion" class="btn btn-primary">Ajout de gossip</a>
+ <table class="table">
+  
+    <!-- <thead> -->
+      <tr>
+        <th>Name</th>
+        <th>Gossips</th>
+      </tr>
+    <!-- </thead> -->
+    <tbody>
+      <% @gossip.each do |gossips|%>
+      <tr>
+        <td><%= gossips.author%></td>
+        <td><%= gossips.content%></td>
+        <td><%= %></td>
+        <td><a href="/modification/<%= gossips.id %>" class="btn btn-warning">Modifier</a></td>
+        <td><a href="/suppression/<%= gossips.id %>" class="btn btn-danger">/!\Supprimer/!\</a></td>
+      </tr>
+      <% end %>
+    </tbody>
+  
+  </table>
+<a href="/connexion/connexion" class="btn btn-primary">Ajout de gossip</a>

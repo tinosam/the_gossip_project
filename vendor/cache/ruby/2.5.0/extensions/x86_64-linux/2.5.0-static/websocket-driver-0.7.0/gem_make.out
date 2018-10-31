@@ -1,0 +1,15 @@
+current directory: /home/monkeykiller/Bureau/the_gossip_project/vendor/cache/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+/usr/local/bin/ruby -r ./siteconf20181031-20393-1miso5f.rb extconf.rb
+creating Makefile
+
+current directory: /home/monkeykiller/Bureau/the_gossip_project/vendor/cache/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/monkeykiller/Bureau/the_gossip_project/vendor/cache/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/monkeykiller/Bureau/the_gossip_project/vendor/cache/ruby/2.5.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20181031-20393-15zl2dq
